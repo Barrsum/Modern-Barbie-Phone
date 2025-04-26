@@ -1,4 +1,4 @@
-# Modern Barbie Phone Sim (React) 📱💖
+# Modern Barbie Phone (React) 📱💖
 
 ## Try live demo - [Demo](https://modern-barbie-phone.vercel.app/)
 
