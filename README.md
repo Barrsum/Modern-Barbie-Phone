@@ -6,9 +6,9 @@ An interactive smartphone UI simulation built with React and Vite. Inspired by n
 
 <!-- ================================================== -->
 
-![Modern Barbie Phone Sim - Dark Mode](public/screenshot1.png)
-![Modern Barbie Phone Sim - Light Mode](public/screenshot2.png)
-![Modern Barbie Phone Sim - Mobile view](public/screenshot3.png)
+![Modern Barbie Phone Sim - Dark Mode](public/Screenshot1.png)
+![Modern Barbie Phone Sim - Light Mode](public/Screenshot2.png)
+![Modern Barbie Phone Sim - Mobile view](public/Screenshot3.png)
 
 <!-- ================================================== -->
 
