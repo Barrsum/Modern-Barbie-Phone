@@ -1,0 +1,63 @@
+/* src/components/Header.css */
+
+.app-header {
+    width: 100%;
+    padding: 15px 30px;
+    background-color: var(--header-footer-bg, var(--phone-frame-bg));
+    color: var(--header-footer-text, var(--status-bar-color));
+    display: flex; /* Keeps items in a row */
+    justify-content: space-between; /* Pushes header-info and theme-toggle apart */
+    align-items: center; /* Vertically aligns the items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s ease, color 0.4s ease;
+    flex-shrink: 0;
+  }
+  
+  /* NEW: Styles for the wrapper div */
+  .header-info {
+    /* This div will naturally stack its children (h1, p) vertically */
+    display: flex; /* Optional: Use flex column if more control needed */
+    flex-direction: column; /* Stack title and credit */
+    align-items: flex-start; /* Align text to the left */
+  }
+  
+  .header-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.1; /* Adjust line height if needed */
+  }
+  
+  /* NEW or ADJUSTED: Styles for the credit line specifically */
+  .creator-credit-header {
+    font-size: 1.2em; /* Smaller font size */
+    font-weight: 400; /* Normal weight */
+    margin: 3px 0 0 0; /* Add small top margin */
+    line-height: 1;
+    opacity: 0.85; /* Slightly less prominent */
+    font-style: italic; /* Optional: make it italic */
+  }
+  
+  /* --- Theme Toggle Button Styles (Remain the same) --- */
+  .theme-toggle {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  .theme-toggle:hover {
+    background-color: var(--button-hover-bg);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  .theme-toggle:active {
+    transform: scale(0.96);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+/* Created by Ram Bapat, www.linkedin.com/in/ram-bapat-barrsum-diamos */

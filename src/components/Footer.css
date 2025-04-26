@@ -1,0 +1,49 @@
+/* src/components/Footer.css */
+
+.app-footer {
+    width: 100%;
+    padding: 20px 30px; /* Slightly reduced padding */
+    /* margin-top: 40px; REMOVED - Layout handles spacing */
+    background-color: var(--header-footer-bg, var(--phone-frame-bg)); /* Use theme variable */
+    color: var(--header-footer-text, var(--icon-label-color)); /* Use theme variable */
+    text-align: center;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    font-size: 0.85em; /* Slightly smaller */
+    opacity: 0.9;
+    flex-shrink: 0; /* Prevent footer from shrinking */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.08); /* Optional top shadow */
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .social-links a {
+    color: var(--header-footer-text, var(--icon-label-color)); /* Use theme color */
+    font-size: 1.5em; /* Adjusted size */
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .social-links a:hover {
+    color: var(--button-hover-bg); /* Example hover color */
+    transform: scale(1.1);
+  }
+  
+  .app-footer p {
+    margin: 4px 0; /* Reduced paragraph margin */
+    line-height: 1.3;
+  }
+  
+  .project-name {
+      font-weight: 500;
+  }
+  
+  .creator-credit {
+      margin-top: 8px; /* Reduced margin */
+      font-style: italic;
+  }
+
+   /* Created by Ram Bapat, www.linkedin.com/in/ram-bapat-barrsum-diamos */

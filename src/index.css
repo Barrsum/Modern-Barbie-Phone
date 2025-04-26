@@ -1,0 +1,66 @@
+/* src/index.css */
+
+/* --- Global Styles & Resets --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Full Height Setup (Crucial for Flex Layout) --- */
+html,
+body,
+#root {
+  height: 100%; /* Ensure containers can fill the viewport height */
+  overflow: hidden; /* Prevent double scrollbars on body/html */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  /* Body itself is no longer the main flex container */
+  transition: background-color 0.4s ease, color 0.4s ease;
+  background-color: var(--body-bg); /* Apply background here */
+  color: var(--icon-label-color); /* Default text color */
+}
+
+/* --- Theme Variables (Dark Theme is Default) --- */
+/* (Keep all your variables :root and body.light-theme as before) */
+:root {
+  --body-bg: #1a1a1a;
+  --phone-frame-bg: #1c1c1e;
+  --phone-border-color: #3a3a3c;
+  --screen-bg-fallback: #000000;
+  --status-bar-color: #f0f0f0;
+  --icon-label-color: #f0f0f0;
+  --icon-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  --button-bg: #f0f0f0;
+  --button-text: #1a1a1a;
+  --button-hover-bg: #dcdcdc;
+  --icon-color: #f5f5f5;
+  --icon-tile-bg: rgba(118, 118, 128, 0.24);
+  --screen-wallpaper: url('/wallpaper-dark.jpg');
+  --bottom-bar-bg: rgba(255, 255, 255, 0.6);
+  --header-footer-bg: #1c1c1e; /* Example: Use phone frame color */
+  --header-footer-text: #f0f0f0; /* Example text color */
+}
+
+body.light-theme {
+  --body-bg: #f4f4f8;
+  --phone-frame-bg: #f9f9f9;
+  --phone-border-color: #d1d1d6;
+  --screen-bg-fallback: #ffffff;
+  --status-bar-color: #1d1d1f;
+  --icon-label-color: #1d1d1f;
+  --icon-text-shadow: none;
+  --button-bg: #333;
+  --button-text: #fff;
+  --button-hover-bg: #555;
+  --icon-color: #333;
+  --icon-tile-bg: rgba(235, 235, 240, 0.9);
+  --screen-wallpaper: url('/wallpaper.jpg');
+  --bottom-bar-bg: rgba(60, 60, 67, 0.6);
+  --header-footer-bg: #f9f9f9; /* Example light theme color */
+  --header-footer-text: #1d1d1f; /* Example light theme text */
+}
+
+   /* Created by Ram Bapat, www.linkedin.com/in/ram-bapat-barrsum-diamos */
