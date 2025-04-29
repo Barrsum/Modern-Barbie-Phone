@@ -2,7 +2,7 @@
 
 ## Try live demo - [Demo](https://modern-barbie-phone.vercel.app/)
 
-An interactive smartphone UI simulation built with React and Vite. Inspired by nostalgic toy phones, it features a modern design, clickable icons that play those nostalgic sounds, light/dark themes, and dynamic elements. Part of the #30DaysOfVibeCoding challenge.
+An interactive smartphone UI simulation built with React and Vite. Inspired by nostalgic barbie toy phones, it features a modern design, clickable icons that play those nostalgic sounds, light/dark themes, and dynamic elements. Part of the #30DaysOfVibeCoding challenge.
 
 <!-- ================================================== -->
 
